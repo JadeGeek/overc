@@ -22,6 +22,17 @@ end
 
 gem 'jquery-rails'
 
+group :test, :development do
+	gem 'turn'
+	gem 'rspec-rails'
+	gem 'capybara'
+	gem 'guard-rspec'
+	gem 'growl_notify'
+end
+
+gem 'nokogiri', '~> 1.5.2'
+
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
